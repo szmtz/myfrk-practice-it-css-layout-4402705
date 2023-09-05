@@ -1,0 +1,54 @@
+/*     
+Everything in CSS is a box. 
+Boxes have different parts. 
+Content. Padding. Border. Margin
+Default - box will fill content only
+Padding - occurs inside of the background of the element
+-occurs inside the border and goes around the content
+-used mostly to add background to an element
+content - the most inside thing of the element
+border - goes around the padding of the element
+margin - spacing on the outside of the border
+---used to space two elements apart from each other
+
+NOTE: if you want to space two 
+elements away from each other use MARGIN
+MARGIN - is outside the border
+
+
+if you want to space an element from itself
+use PADDING - is inside the border which will include the 
+background color
+
+*/ 
+
+* {
+  padding: 0;  
+  margin: 0; 
+  font-size: 40px; 
+  box-sizing: border-box;
+      /* the actual size of the content 
+      gets subtracted out from the border 
+      and the padding      */
+  /*box-sizing is used all the time becuase
+  it makes things easier and is placed in the universal */ 
+}
+
+.box-one {
+  background-color: #EB5757; 
+  padding: 10px; 
+  height: 100px;
+  width: 100px; 
+  border: 20px solid #9B51E0; 
+  margin: 100px; 
+}
+
+.box-two {
+  background-color: #2D9CDB; 
+  border: 0 solid #27AE60; 
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+  border: 30px solid #9B51E0;
+  margin: 70px; 
+}
